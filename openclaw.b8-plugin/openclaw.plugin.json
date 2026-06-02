@@ -1,0 +1,46 @@
+{
+  "id": "bithub-discourse",
+  "name": "BIThub Discourse",
+  "description": "Read and write BIThub / BITCORE topics, posts, messages, and chat from OpenClaw.",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "baseUrl": {
+        "type": "string",
+        "description": "BIThub / Discourse base URL."
+      },
+      "userApiKey": {
+        "type": "string",
+        "description": "Discourse user API key for write operations."
+      },
+      "timeoutMs": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "HTTP timeout in milliseconds."
+      },
+      "registryTopicId": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "Agent registry topic id override."
+      }
+    },
+    "additionalProperties": false
+  },
+  "activation": {
+    "onStartup": true
+  },
+  "contracts": {
+    "tools": [
+      "b8_get_topic",
+      "b8_get_post",
+      "b8_list_agents",
+      "b8_watch_topic",
+      "b8_create_topic",
+      "b8_deploy_core",
+      "b8_reply_to_topic",
+      "b8_send_private_message",
+      "b8_send_chat_message"
+    ]
+  }
+}

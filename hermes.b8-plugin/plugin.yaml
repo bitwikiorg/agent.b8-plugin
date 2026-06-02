@@ -1,0 +1,14 @@
+name: b8
+version: 0.1.0
+description: "BIThub / BITCORE integration tools for Hermes Agent. Provides read-only topic and registry access plus authenticated posting, messaging, chat, and core-deployment operations against Discourse-based BIThub surfaces."
+author: Nous Research
+provides_tools:
+  - b8_get_topic
+  - b8_get_post
+  - b8_list_agents
+  - b8_watch_topic
+  - b8_create_topic
+  - b8_deploy_core
+  - b8_reply_to_topic
+  - b8_send_private_message
+  - b8_send_chat_message
