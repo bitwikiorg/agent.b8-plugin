@@ -2,6 +2,12 @@
 
 OpenClaw-native BIThub / BITCORE tool plugin.
 
+## Runtime identity
+
+- directory in this repo: `openclaw.b8-plugin/`
+- npm package name: `openclaw-plugin-bithub-discourse`
+- OpenClaw plugin id: `bithub-discourse`
+
 ## Install
 
 If you are using OpenClaw, install **only this directory**.
