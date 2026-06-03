@@ -2,13 +2,11 @@
 
 Hermes-native BIThub / BITCORE plugin.
 
-## Files
+## Runtime identity
 
-- `plugin.yaml`
-- `client.py`
-- `tools.py`
-- `__init__.py`
-- `tests/test_b8_plugin.py`
+- directory in this repo: `hermes.b8-plugin/`
+- Hermes plugin name: `b8`
+- install target inside Hermes: `plugins/b8/`
 
 ## Install
 
@@ -27,6 +25,14 @@ plugins:
   enabled:
     - b8
 ```
+
+## Files
+
+- `plugin.yaml`
+- `client.py`
+- `tools.py`
+- `__init__.py`
+- `tests/test_b8_plugin.py`
 
 ## Auth
 
