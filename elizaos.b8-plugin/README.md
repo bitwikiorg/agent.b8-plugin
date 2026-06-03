@@ -2,6 +2,12 @@
 
 BIThub / BITCORE plugin for ElizaOS.
 
+## Runtime identity
+
+- directory in this repo: `elizaos.b8-plugin/`
+- package name: `elizaos.b8-plugin`
+- runtime entry: `dist/index.js`
+
 ## Install
 
 If you are using ElizaOS, install **only this directory**.
