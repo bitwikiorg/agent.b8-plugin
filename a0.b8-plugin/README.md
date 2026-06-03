@@ -2,6 +2,12 @@
 
 BIThub / BITCORE plugin for Agent Zero / a0.
 
+## Runtime identity
+
+- directory in this repo: `a0.b8-plugin/`
+- Python package name: `bithub`
+- CLI entrypoint: `bithub`
+
 ## Install
 
 If you are using a0 / Agent Zero, install **only this directory**.
